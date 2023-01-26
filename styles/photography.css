@@ -97,9 +97,12 @@ footer {
   max-height: 50px;
 }
 @media (max-width: 900px) {
+  .hero {
+    padding: 230px 0;
+  }
   .hero h1 {
     font-size: 40px;
-    line-height: 42px;
+    line-height: 36px;
     letter-spacing: 0.1em;
   }
 
@@ -107,5 +110,9 @@ footer {
     line-height: 14px;
     letter-spacing: 0.1em;
     font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
   }
 }
