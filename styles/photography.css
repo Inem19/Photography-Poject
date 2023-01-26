@@ -23,26 +23,34 @@ h6 {
   color: var(--branding-color);
 }
 
+p {
+  color: var(--branding-color);
+  font-size: 16px;
+}
+
 nav {
   padding: 20px 0;
 }
 
-nav ul {
+ul {
   padding: 0;
   margin: 0;
 }
 
-nav li {
+li {
   display: inline;
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
 }
 
-nav a {
+a {
   text-decoration: none;
   color: var(--branding-color);
-  transition: all 100ms ease-in-out;
+}
+
+footer {
+  background: var(--secondary-color);
 }
 
 .hero {
@@ -89,9 +97,6 @@ nav a {
   max-height: 50px;
 }
 @media (max-width: 900px) {
-  .hero {
-    padding: 200px 80px;
-  }
   .hero h1 {
     font-size: 40px;
     line-height: 42px;
@@ -102,5 +107,9 @@ nav a {
     line-height: 14px;
     letter-spacing: 0.1em;
     font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
   }
 }
