@@ -1,2 +1,72 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 280px 140px;
+  background-image: url(/images/background.png);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero h1 {
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 0.1em;
+}
+
+.hero h3 {
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  font-size: 24px;
+}
+
+.hero p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 30px;
+}
+
+.btn-branding {
+  border-radius: 50px;
+  background: white;
+  padding: 15px 30px;
+  line-height: 10px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #272142;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 160px 80px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+  }
+
+  .hero h3 {
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    font-size: 12px;
+  }
+}
