@@ -67,6 +67,10 @@ h6 {
   .hero h3 {
     line-height: 14px;
     letter-spacing: 0.05em;
-    font-size: 12px;
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 14px;
   }
 }
