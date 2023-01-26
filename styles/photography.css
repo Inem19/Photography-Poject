@@ -6,6 +6,11 @@ font-family: 'Roboto', sans-serif;*/
   --default-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Montserrat", sans-serif;
 }
+
+body {
+  background: #1b1b1b;
+}
+
 h1,
 h2,
 h3,
