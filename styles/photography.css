@@ -115,8 +115,13 @@ h3 {
   font-family: var(--secondary-font-family);
   color: #272142;
 }
+
 .logo {
   max-height: 50px;
+}
+
+.contact-container {
+  padding: 60px 20px;
 }
 @media (max-width: 900px) {
   .hero {
