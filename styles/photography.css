@@ -120,7 +120,7 @@ h3 {
 }
 @media (max-width: 900px) {
   .hero {
-    padding: 230px 0;
+    padding: 160px 0;
   }
   .hero h1 {
     font-size: 40px;
