@@ -23,6 +23,12 @@ h6 {
   color: var(--branding-color);
 }
 
+h1 {
+  font-size: 64px;
+  line-height: 84px;
+  letter-spacing: 0.1em;
+}
+
 p {
   color: var(--branding-color);
   font-size: 16px;
@@ -65,8 +71,6 @@ footer {
 
 .hero h1 {
   font-size: 72px;
-  line-height: 84px;
-  letter-spacing: 0.1em;
 }
 
 .hero h3 {
@@ -82,6 +86,23 @@ footer {
   font-size: 18px;
   font-style: normal;
   line-height: 30px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.content h2,
+h3 {
+  font-size: 18px;
+  color: #ed5082;
+}
+
+.camera-type {
+  background: var(--secondary-color);
+  margin: 0;
+  padding: 10px;
+  max-width: 60%;
 }
 
 .btn-branding {
@@ -110,6 +131,10 @@ footer {
     line-height: 14px;
     letter-spacing: 0.1em;
     font-size: 20px;
+  }
+
+  .camera-type {
+    max-width: 100%;
   }
 
   p {
